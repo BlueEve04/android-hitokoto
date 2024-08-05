@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/radiusbox"
+    android:padding="10dp">
+    <TextView
+        android:id="@+id/floating_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about"
+        android:textSize="40sp"
+        android:textColor="#419393"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="145dp"
+            android:layout_height="145dp"
+            android:src="@drawable/avatar"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/BlueEve"
+            android:textSize="40sp"
+            android:layout_gravity="center"
+            android:textColor="#2185B1"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:text="@string/whydothis"
+        android:textColor="@color/teal_900" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ver"
+        android:textColor="@color/teal_200"
+        android:textAlignment="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/line" />
+    <Button
+        android:id="@+id/asmt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="使用协议"
+        android:background="@android:color/transparent"
+        android:textColor="@color/teal_700"
+        android:textAlignment="center"/>
+    <Button
+        android:id="@+id/mngt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="赞赏我"
+        android:background="@android:color/transparent"
+        android:textColor="@color/teal_700"
+        android:textAlignment="center"/>
+
+
+
+</LinearLayout>

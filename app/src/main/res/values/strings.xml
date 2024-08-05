@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">每日一言</string>
+    <string name="about_ico">关于</string>
+    <string name="title_activity_floatsett">Floatsett</string>
+    <string name="about">关于</string>
+    <string name="settings">设置</string>
+    <string name="BlueEve">作者：\nBlueEve</string>
+    <string name="app_name_Eng">Hitokoto</string>
+    <string name="app_name_no_Daily">一言</string>
+    <string name="ver">版本：0.9-Build2</string>
+    <string name="Assignment">使用须知
+        （基本与一言一致）
+      本软件（句库来自一言）遵循 AGPL 开源授权，您在使用本库时需要遵循 AGPL 授权的相关规定。这通常意味着：您在使用、分发、修改、扩充等涉及本库的操作时您需要开源您的修改作品。\n
+      除我们提供的超链接调用方式不受 AGPL 的开源，传染影响，其余使用方式都需要遵循 AGPL 授权。\n
+      本软件句库著作权并非完全由一言网持有。除去句子库之外句库切割、分析、呈现等和软件本体著作权归BlueEve所有。\n
+      如您是句子的原作者，且不希望您的句子参与公共分享，请您联系一言（i@loli.online），一言将移除相关侵权句子，我将在下次维护时同步这些变化。\n
+      如您是原创句子的作者，这意味着一言是在经过您的确认后获得了拷贝、分发、出版、商业使用等长期授予的权限。当然，如果您想要移除您提交过的句子，一言依旧尊重您的著作权——移除相关句子。\n</string>
+    <string name="whydothis">我是BlueEve,最近在终端上用上了一言，突发奇想移植到手表/手机上会怎么样，于是花了一个晚上写了这个。
+        共有13949个句子，应该看不完（）\n
+        句子都是随机展示,数据全部来自一言官方github仓库，依照规定本应用程序开源.\n
+        一言开源地址：https://github.com/hitokoto-osc/sentences-bundle\n
+        本项目地址：https://github.com/BlueEve04/android-hitokoto</string>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="Theme.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+            <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="Theme.MyDialog" parent="Theme.AppCompat.Dialog">
+        <!-- 你的对话框样式设置 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+    </style>
+    <style name="Theme.MyDialog1" parent="Theme.AppCompat.Dialog">
+        <!-- 你的对话框样式设置 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+    </style>
+    <style name="Theme.MyDialog2" parent="Theme.AppCompat.Dialog">
+        <!-- 你的对话框样式设置 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+    </style>
+    <style name="Theme.MyDialogFormer" parent="Theme.AppCompat.Dialog">
+        <!-- 你的对话框样式设置 -->
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowMinWidthMajor">80%</item>
+        <item name="android:windowMinWidthMinor">80%</item>
+    </style>
+</resources>

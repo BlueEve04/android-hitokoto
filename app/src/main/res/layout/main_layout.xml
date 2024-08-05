@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/totb">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <Toolbar
+        android:id="@+id/titleback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#666">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name_no_Daily"
+            android:textFontWeight="800"
+            android:textSize="40dp"
+            android:layout_margin="20dp"
+            android:textColor="@color/black" />
+        <Button
+            android:id="@+id/aboutbutt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="···"
+            android:textSize="40dp"
+            android:textColor="@color/midyellow"
+            android:layout_margin="20dp"
+            android:layout_gravity="end|center"/>
+    </Toolbar>
+
+</RelativeLayout>
