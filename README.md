@@ -1,0 +1,1 @@
+An Android Hitokoto viewer
